@@ -1,0 +1,239 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*temporary to see outlines of divs and containers*/
+/*
+*{
+	outline: 1px solid black;
+}
+
+*{
+	font-family: sans-serif;
+}
+*/
+.buttons{
+	height: 20px;
+	width: 110px;
+	border-color: #D8D8D8;
+	background-color: #F2F2F2;
+	margin-left: 10%;
+	margin-right: 30%;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 3px;
+	padding: 3px;
+	text-align: center;
+}
+
+.buttons2{
+	height: 20px;
+	width: 130px;
+	border-color: #D8D8D8;
+	background-color: #F2F2F2;
+	margin-right: 10%;
+	margin-left: 30%;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 3px;
+	padding: 3px;
+	text-align: center;
+}
+
+.logo{
+	margin: 10% 40%;
+	height: 88px;
+	width: 275px;
+	position: absolute;
+	display: inline;
+}
+
+.mic{
+	top: 305px;
+	margin-left: 965px;
+	height: 20px;
+	width: 20px;
+	display: inline;
+	position: absolute;
+}
+
+.bar{
+	margin-top: 300px;
+	margin-left: 30%;
+	margin-right: 20%;
+	height: 23px;
+	width: 560px;
+	border: 1px solid #848484;
+	display: inline-block;
+	position: absolute;
+
+}
+.search{
+	display: inline-block;
+	position: absolute;
+	top: 350px;
+	left: 580px;
+	
+}
+
+.lucky{
+	display: inline-block;
+	position: absolute;
+	top: 350px;
+	margin-left: 40%;
+	
+}
+
+.graph{
+	top: 10px;
+	right: 100px;
+	position: absolute;
+	display: inline-block;
+	height: 25px;
+	width: 25px;
+}
+
+.you{
+	top: 15px;
+	right: 300px;
+	position: absolute;
+	display: inline-block;
+}
+
+.gmail{
+	top: 15px;
+	right: 230px;
+	position: absolute;
+	display: inline-block;
+}
+
+.images{
+	top: 15px;
+	right: 150px;
+	position: absolute;
+	display: inline-block;
+}
+
+footer{
+	background-color: #F2F2F2;
+	height: 40px;
+	bottom: 0px;
+	position: absolute;
+	padding: 5px;
+	width: 100%;
+}
+
+
+.leftfooter{
+	bottom: 10px;
+	left: 10px;
+	display: inline-block;
+	position: absolute;
+}
+
+.leftfooter2{
+	bottom: 10px;
+	left: 120px;
+	display: inline-block;
+	position: absolute;
+}
+
+.leftfooter3{
+	bottom: 10px;
+	left: 220px;
+	display: inline-block;
+	position: absolute;
+}
+ 
+ .rightfooter{
+	bottom: 10px;
+	right: 80px;
+	display: inline-block;
+	position: absolute;
+ }
+
+ .rightfooter2{
+	bottom: 10px;
+	right: 10px;
+	display: inline-block;
+	position: absolute;
+ }
+.header{
+	text-align: right;
+	margin-top:0px;
+	display: inline-block;
+}
+/*
+.right{
+	right: 10px;
+	display: inline-block;
+	position: relative;
+}
+
+.left{
+	text-align: left;
+	display: inline-block;
+	position: relative;
+}
+*/
+.signin{
+	height: 20px;
+	width: 50px;
+	background-color: #4000FF;
+	border: 1px solid black;
+	border-radius: 2px;
+	margin-left: 800px;
+	margin-top: 0px;
+	display: inline;
+	color: white;
+	top: 10px;
+	right: 20px;
+	position: absolute;
+	display: inline-block;
+	font-weight: bold;
+	padding: 6px;
+	text-align: center;
+	
+	
+}
